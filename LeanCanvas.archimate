@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" xmlns:canvas="http://www.archimatetool.com/archimate/canvas" name="LeanCanvas model" id="979e3c68" version="3.1.1">
+  <folder name="Business" id="e07b1aaf" type="business"/>
+  <folder name="Application" id="26d7594f" type="application"/>
+  <folder name="Technology" id="be2dbde9" type="technology"/>
+  <folder name="Motivation" id="ca8512ce" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="a22dd5ca" type="implementation_migration"/>
+  <folder name="Connectors" id="866076c5" type="connectors"/>
+  <folder name="Relations" id="c1b74443" type="relations"/>
+  <folder name="Views" id="058d68a1" type="diagrams">
+    <element xsi:type="canvas:CanvasModel" id="ee4ea598" name="Lean Canvas" hintTitle="Fill-in strategies">
+      <child xsi:type="canvas:CanvasModelBlock" id="2a39a661" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Top 3 problems">
+        <bounds x="84" y="48" width="229" height="565"/>
+        <child xsi:type="canvas:CanvasModelBlock" id="5191aab6" textAlignment="1" borderColor="#000000">
+          <bounds y="564" width="577" height="193"/>
+        </child>
+        <child xsi:type="canvas:CanvasModelBlock" id="87e68a7b" font="1|Sans|11.0|0|GTK|1|" textAlignment="1" borderColor="#bfbfbf" hintTitle="List how these problems are solved today ">
+          <bounds x="12" y="288" width="204" height="264"/>
+          <content>Existing Alternatives</content>
+        </child>
+        <content>Problem </content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="4390efd8" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Top 3 features">
+        <bounds x="312" y="48" width="217" height="289"/>
+        <content>Solution</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="1e97910e" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Key Activities you measure">
+        <bounds x="312" y="336" width="217" height="277"/>
+        <content>Key Metrics</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="8d6869c4" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" fillColor="#ffffff" borderColor="#000000" hintTitle="Can't be easily copied or bought">
+        <bounds x="756" y="48" width="217" height="289"/>
+        <content>Unfair Advantage</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="d62f7c67" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Path to customers">
+        <bounds x="756" y="336" width="217" height="277"/>
+        <content>Channels</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="286893d5" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" fillColor="#ffffff" borderColor="#000000">
+        <bounds x="528" y="48" width="229" height="565"/>
+        <child xsi:type="canvas:CanvasModelBlock" id="b2431ecf" font="1|Sans|11.0|0|GTK|1|" textAlignment="1" borderColor="#bfbfbf" hintTitle="List your X for Y analogies.">
+          <bounds x="12" y="288" width="204" height="264"/>
+          <hintContent>I.e YouTube = Flickr for videos</hintContent>
+          <content>High-Level Concept</content>
+        </child>
+        <content>(Unique) Value Proposition</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="134621fc" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" fillColor="#ffffff" borderColor="#000000" hintTitle="Target customers">
+        <bounds x="972" y="48" width="217" height="565"/>
+        <child xsi:type="canvas:CanvasModelBlock" id="c46bfb09" font="1|Sans|11.0|0|GTK|1|" textAlignment="1" borderColor="#bfbfbf" hintTitle="List the characteristics of your ideal customer ">
+          <bounds x="12" y="288" width="192" height="264"/>
+          <content>Early Adopters</content>
+        </child>
+        <content>Customer Segments</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="158cfc42" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" fillColor="#ffffff" borderColor="#000000" hintTitle="Revenue model">
+        <bounds x="648" y="612" width="541" height="169"/>
+        <child xsi:type="canvas:CanvasModelBlock" id="6a6d9dd1" textAlignment="1" borderColor="#000000">
+          <bounds x="-576" width="577" height="169"/>
+        </child>
+        <hintContent>&lt;sl>
+&lt;li>Revenue model
+&lt;li>Lifetime value
+&lt;li>Revenue
+&lt;li>Gross Margin 
+&lt;/sl></hintContent>
+        <content>Revenue Streams</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="235b96b4" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" fillColor="#ffffff" borderColor="#000000" hintTitle="Cost structures">
+        <bounds x="84" y="612" width="564" height="168"/>
+        <hintContent>&lt;sl>
+&lt;li>Customer Acquisitions Costs,
+&lt;li>Distribution Costs
+&lt;li>Hosting
+&lt;li>People
+&lt;li>Etc 
+&lt;/sl>
+</hintContent>
+        <content>Cost Structure</content>
+      </child>
+      <documentation>Archi template for a Lean Canvas.
+
+</documentation>
+      <hintContent>&lt;dl>
+&lt;dt>Customer first:&lt;/dt> 
+&lt;dd>Customer Segments -> Early Adopters -> Existing Alternatives -> Problem&lt;/dd>
+&lt;dt>Problem first:&lt;/dt> 
+&lt;dd> Problem -> Customer Segments -> Early Adopters -> Existing Alternatives&lt;/dd>
+&lt;dt>Jobs-to-be-done:&lt;/dt> 
+&lt;dd> Existing alternatives -> Customer Segments -> Early Adopters -> Problem&lt;/dd>
+&lt;/dl></hintContent>
+    </element>
+  </folder>
+  <purpose>A simple LeanCanvas template</purpose>
+</archimate:model>
