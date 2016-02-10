@@ -18,6 +18,10 @@
           <bounds x="12" y="288" width="204" height="264"/>
           <content>Existing Alternatives</content>
         </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="db86db4c" textAlignment="2" fillColor="#ffff95" borderColor="#C0C0C0" textPosition="4">
+          <bounds x="49" y="103" width="75" height="63"/>
+          <content>The problem!</content>
+        </child>
         <content>Problem </content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="4390efd8" font="1|Sans|11.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Top 3 features">
@@ -50,6 +54,10 @@
         <child xsi:type="canvas:CanvasModelBlock" id="c46bfb09" font="1|Sans|11.0|0|GTK|1|" textAlignment="1" borderColor="#bfbfbf" hintTitle="List the characteristics of your ideal customer ">
           <bounds x="12" y="288" width="192" height="264"/>
           <content>Early Adopters</content>
+        </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="000e07c4" textAlignment="2" fillColor="#d5ff95" borderColor="#C0C0C0" textPosition="4">
+          <bounds x="45" y="60" width="75" height="63"/>
+          <content>Those guys!</content>
         </child>
         <content>Customer Segments</content>
       </child>
@@ -89,6 +97,47 @@
 &lt;dt>Jobs-to-be-done:&lt;/dt> 
 &lt;dd> Existing alternatives -> Customer Segments -> Early Adopters -> Problem&lt;/dd>
 &lt;/dl></hintContent>
+    </element>
+    <element xsi:type="canvas:CanvasModel" id="59e0b500" name="Experiment Report">
+      <child xsi:type="canvas:CanvasModelBlock" id="3f567041" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="What are you trying to achieve?">
+        <bounds x="12" y="12" width="613" height="205"/>
+        <hintContent>What are you trying to achieve?</hintContent>
+        <content>Background</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="3c9b5571" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Declare your expected outcome">
+        <bounds x="12" y="228" width="613" height="265"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="b28b1e75" textAlignment="2" fillColor="#ffff95" borderColor="#C0C0C0" textPosition="4">
+          <bounds x="36" y="36" width="353" height="57"/>
+          <content>[Specific Repeatale Action] with [Expected outcome]</content>
+        </child>
+        <hintContent>Use format:
+[Specific repeatable Action] with [expected measurable outcome]</hintContent>
+        <content>Falsifiable hypothesis</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="20120cd2" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" borderColor="#000000">
+        <bounds x="12" y="504" width="613" height="253"/>
+        <content>Details</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="7641c9f3" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Enter your qualitative/quantifiable data">
+        <bounds x="636" y="12" width="637" height="337"/>
+        <content>Results</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="8e5e196a" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="Summarize your learning from the experiment">
+        <bounds x="636" y="360" width="637" height="241"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="acb0823b" textAlignment="2" fillColor="#d5ff95" borderColor="#C0C0C0" textPosition="4">
+          <bounds x="122" y="106" width="75" height="63"/>
+          <content>These things are VALIDAED</content>
+        </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="12d769bd" textAlignment="2" fillColor="#ffa093" borderColor="#C0C0C0" textPosition="4">
+          <bounds x="420" y="106" width="109" height="99"/>
+          <content>These things are INVALIDATED</content>
+        </child>
+        <content>Validated learning</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="8f275742" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" borderColor="#000000" hintTitle="What is the next experiment?">
+        <bounds x="636" y="612" width="637" height="145"/>
+        <content>Next Action</content>
+      </child>
     </element>
   </folder>
   <purpose>A simple LeanCanvas template</purpose>
